@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { RecoilRoot } from "recoil";
-import { Home } from "./pages/home";
+import { Home } from "./pages/Home";
 
 const links = [{ path: "/", element: <Home /> }];
 

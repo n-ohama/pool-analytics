@@ -1,37 +1,37 @@
 import { atom } from "recoil";
 
-export const leftInput = atom<string>({
+export const LeftInputState = atom<string>({
   key: "leftInput",
   default: "",
 });
 
-export const rightInput = atom<string>({
+export const RightInputState = atom<string>({
   key: "rightInput",
   default: "",
 });
 
-export const scoreLeftState = atom<number>({
+export const ScoreLeftState = atom<number>({
   key: "scoreLeftState",
   default: 0,
 });
-export const scoreRightState = atom<number>({
+export const ScoreRightState = atom<number>({
   key: "scoreRightState",
   default: 0,
 });
-export const totalBreaksLeftState = atom<number>({
+export const TotalBreaksLeftState = atom<number>({
   key: "totalBreaksLeftState",
   default: 0,
 });
-export const totalBreaksRightState = atom<number>({
+export const TotalBreaksRightState = atom<number>({
   key: "totalBreaksRightState",
   default: 0,
 });
 
-export const dryBreakCountLeftState = atom<number>({
+export const DryBreakCountLeftState = atom<number>({
   key: "dryBreakCountLeftState",
   default: 0,
 });
-export const dryBreakCountRightState = atom<number>({
+export const DryBreakCountRightState = atom<number>({
   key: "dryBreakCountRightState",
   default: 0,
 });
@@ -39,7 +39,7 @@ export const ScratchLeftState = atom<number>({
   key: "ScratchLeftState",
   default: 0,
 });
-export const ScratcRightState = atom<number>({
+export const ScratchRightState = atom<number>({
   key: "ScratcRightState",
   default: 0,
 });
